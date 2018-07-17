@@ -1,15 +1,27 @@
 <!doctype html>
 <html>
   <head>
+    <title>Eketrina Gorbacheva</title>
     <meta charset="utf-8">
+    <meta name="description" content="Web Developer and Agile Project Manager, based in Shanghai, China">
+     <meta name="keywords" content="Kso, Ekaterina Gorbacheva, web developer, Ruby on Rails, RoR, HTML, JavaScript, MiniProgram, MP">
+    <meta name="author" content="Ekaterina Gorbacheva">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title %></title>
+    <!--  <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-111037267-1');
+    </script>
   </head>
   <body>
     <%= yield %>
